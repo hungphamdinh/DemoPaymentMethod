@@ -1,6 +1,10 @@
 package com.demopayment;
 
+import android.content.Intent;
+
 import com.facebook.react.ReactActivity;
+
+import vn.zalopay.sdk.ZaloPaySDK;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +15,11 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "DemoPayment";
+  }
+
+  @Override
+  public void onNewIntent(Intent intent) {
+    super.onNewIntent(intent);
+    ZaloPaySDK.getInstance().onResult(intent);
   }
 }

@@ -78,7 +78,11 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    enableHermes: false,  // clean and rebuild if changing
+    enableHermes: false,  // clean and rebuild if changing    entryFile: "index.js",
+    bundleAssetName: "index.android.bundle",
+    bundleInDebug: true,
+    bundleInRelease: true
+
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -188,6 +192,7 @@ dependencies {
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
     implementation project(':react-native-momosdk')
+    implementation project(path: ':zpdk-release-28052021')
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 

@@ -38,6 +38,9 @@
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
 		<string>momo</string>
+		<!-- <string>zalo</string>
+		<string>zalopay</string>
+		<string>zalopay.guide.v2</string> -->
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>

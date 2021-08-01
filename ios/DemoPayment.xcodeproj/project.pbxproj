@@ -7,25 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008D347126B00006008CCA28 /* libRNMomosdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008D347026B00006008CCA28 /* libRNMomosdk.a */; };
-		008D34B126B00488008CCA28 /* libRNMomosdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008D34B026B00488008CCA28 /* libRNMomosdk.a */; };
 		00E356F31AD99517003FC87E /* DemoPaymentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DemoPaymentTests.m */; };
+		00E6E26126B65B7F003F1673 /* libRNMomosdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6E26026B65B7F003F1673 /* libRNMomosdk.a */; };
+		00FA13BA26B58FF700C6D70A /* libPods-DemoPayment-DemoPaymentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FA13B926B58FF700C6D70A /* libPods-DemoPayment-DemoPaymentTests.a */; };
+		00FA13BC26B5900300C6D70A /* libPods-DemoPayment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00FA13BB26B5900300C6D70A /* libPods-DemoPayment.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D9802CB1C91F2B78AADA8CD /* libPods-DemoPayment.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5503C8B55D17070C10D7122C /* libPods-DemoPayment.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		AA438D55A97653DF6C826141 /* libPods-DemoPayment-DemoPaymentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F18F0AEA09BE25BF9095DA91 /* libPods-DemoPayment-DemoPaymentTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		008D34AB26B0041A008CCA28 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 008D34A726B0041A008CCA28 /* RNMomosdk.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 134814201AA4EA6300B7C361;
-			remoteInfo = RNMomosdk;
-		};
 		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
@@ -36,26 +28,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		008D347026B00006008CCA28 /* libRNMomosdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNMomosdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		008D34A726B0041A008CCA28 /* RNMomosdk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNMomosdk.xcodeproj; path = "../node_modules/react-native-momosdk/ios/RNMomosdk.xcodeproj"; sourceTree = "<group>"; };
 		008D34B026B00488008CCA28 /* libRNMomosdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNMomosdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356EE1AD99517003FC87E /* DemoPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DemoPaymentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPaymentTests.m; sourceTree = "<group>"; };
+		00E6E26026B65B7F003F1673 /* libRNMomosdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNMomosdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E6E26426B65BC7003F1673 /* libRNMomosdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNMomosdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FA138526B58F0400C6D70A /* libPods-DemoPayment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-DemoPayment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FA13B926B58FF700C6D70A /* libPods-DemoPayment-DemoPaymentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-DemoPayment-DemoPaymentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00FA13BB26B5900300C6D70A /* libPods-DemoPayment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-DemoPayment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* DemoPayment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPayment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DemoPayment/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DemoPayment/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DemoPayment/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DemoPayment/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DemoPayment/main.m; sourceTree = "<group>"; };
-		1AC0BC218DFE0D4A7EC0AA67 /* Pods-DemoPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment.release.xcconfig"; path = "Target Support Files/Pods-DemoPayment/Pods-DemoPayment.release.xcconfig"; sourceTree = "<group>"; };
-		534386E7EA32CFA0EB6616FB /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment-DemoPaymentTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5503C8B55D17070C10D7122C /* libPods-DemoPayment.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPayment.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77197F5177C40B7943EA9C1D /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment-DemoPaymentTests.release.xcconfig"; path = "Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests.release.xcconfig"; sourceTree = "<group>"; };
+		3D756D58E78AD033F4A2C5CD /* Pods-DemoPayment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment.release.xcconfig"; path = "Target Support Files/Pods-DemoPayment/Pods-DemoPayment.release.xcconfig"; sourceTree = "<group>"; };
+		51CE44726D51928F36E2B2CD /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment-DemoPaymentTests.release.xcconfig"; path = "Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DemoPayment/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92EE5F5979468DE8D8AAFFE3 /* Pods-DemoPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment.debug.xcconfig"; path = "Target Support Files/Pods-DemoPayment/Pods-DemoPayment.debug.xcconfig"; sourceTree = "<group>"; };
+		A4D9BB182E1AE51D7DED0C28 /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment-DemoPaymentTests.debug.xcconfig"; path = "Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F18F0AEA09BE25BF9095DA91 /* libPods-DemoPayment-DemoPaymentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoPayment-DemoPaymentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB043947513F295192D21E1D /* Pods-DemoPayment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoPayment.debug.xcconfig"; path = "Target Support Files/Pods-DemoPayment/Pods-DemoPayment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008D34B126B00488008CCA28 /* libRNMomosdk.a in Frameworks */,
-				AA438D55A97653DF6C826141 /* libPods-DemoPayment-DemoPaymentTests.a in Frameworks */,
+				00FA13BA26B58FF700C6D70A /* libPods-DemoPayment-DemoPaymentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,22 +64,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008D347126B00006008CCA28 /* libRNMomosdk.a in Frameworks */,
-				2D9802CB1C91F2B78AADA8CD /* libPods-DemoPayment.a in Frameworks */,
+				00E6E26126B65B7F003F1673 /* libRNMomosdk.a in Frameworks */,
+				00FA13BC26B5900300C6D70A /* libPods-DemoPayment.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		008D34A826B0041A008CCA28 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				008D34AC26B0041A008CCA28 /* libRNMomosdk.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		00E356EF1AD99517003FC87E /* DemoPaymentTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,11 +105,13 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00E6E26426B65BC7003F1673 /* libRNMomosdk.a */,
+				00E6E26026B65B7F003F1673 /* libRNMomosdk.a */,
+				00FA13BB26B5900300C6D70A /* libPods-DemoPayment.a */,
+				00FA13B926B58FF700C6D70A /* libPods-DemoPayment-DemoPaymentTests.a */,
+				00FA138526B58F0400C6D70A /* libPods-DemoPayment.a */,
 				008D34B026B00488008CCA28 /* libRNMomosdk.a */,
-				008D347026B00006008CCA28 /* libRNMomosdk.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5503C8B55D17070C10D7122C /* libPods-DemoPayment.a */,
-				F18F0AEA09BE25BF9095DA91 /* libPods-DemoPayment-DemoPaymentTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,7 +119,6 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				008D34A726B0041A008CCA28 /* RNMomosdk.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -165,10 +150,10 @@
 		D0936FD1ECD40D772A8131BD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				FB043947513F295192D21E1D /* Pods-DemoPayment.debug.xcconfig */,
-				1AC0BC218DFE0D4A7EC0AA67 /* Pods-DemoPayment.release.xcconfig */,
-				534386E7EA32CFA0EB6616FB /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */,
-				77197F5177C40B7943EA9C1D /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */,
+				92EE5F5979468DE8D8AAFFE3 /* Pods-DemoPayment.debug.xcconfig */,
+				3D756D58E78AD033F4A2C5CD /* Pods-DemoPayment.release.xcconfig */,
+				A4D9BB182E1AE51D7DED0C28 /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */,
+				51CE44726D51928F36E2B2CD /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -180,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DemoPaymentTests" */;
 			buildPhases = (
-				BC17DDD864F3741346159577 /* [CP] Check Pods Manifest.lock */,
+				94CE4AD67F263ED15C1A2500 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				E688EAD9372EB006E7AFC1E9 /* [CP] Embed Pods Frameworks */,
-				8C5E5898D1C216DC9FB4F24C /* [CP] Copy Pods Resources */,
+				4AA5B0D6F51B9DD9BBB0A9BA /* [CP] Embed Pods Frameworks */,
+				5D20A8FA877DB5BB33D7FAB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,14 +186,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DemoPayment" */;
 			buildPhases = (
-				47BD5D1EE28B9B30DAC8A5C7 /* [CP] Check Pods Manifest.lock */,
+				CC4BB7930F083A30AEA20848 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				CEC3EF617C3B7E18BB4B2DF6 /* [CP] Embed Pods Frameworks */,
-				DE17F72A3B96CAF21B95C695 /* [CP] Copy Pods Resources */,
+				200610964FC8678F76F9E5EA /* [CP] Embed Pods Frameworks */,
+				CD8C785F03B1DE4E4863D048 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,12 +232,6 @@
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 008D34A826B0041A008CCA28 /* Products */;
-					ProjectRef = 008D34A726B0041A008CCA28 /* RNMomosdk.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				13B07F861A680F5B00A75B9A /* DemoPayment */,
@@ -260,16 +239,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		008D34AC26B0041A008CCA28 /* libRNMomosdk.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libRNMomosdk.a;
-			remoteRef = 008D34AB26B0041A008CCA28 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		00E356EC1AD99517003FC87E /* Resources */ = {
@@ -305,29 +274,41 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		47BD5D1EE28B9B30DAC8A5C7 /* [CP] Check Pods Manifest.lock */ = {
+		200610964FC8678F76F9E5EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DemoPayment-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8C5E5898D1C216DC9FB4F24C /* [CP] Copy Pods Resources */ = {
+		4AA5B0D6F51B9DD9BBB0A9BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D20A8FA877DB5BB33D7FAB4 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,7 +325,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC17DDD864F3741346159577 /* [CP] Check Pods Manifest.lock */ = {
+		94CE4AD67F263ED15C1A2500 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,24 +347,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CEC3EF617C3B7E18BB4B2DF6 /* [CP] Embed Pods Frameworks */ = {
+		CC4BB7930F083A30AEA20848 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoPayment-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DE17F72A3B96CAF21B95C695 /* [CP] Copy Pods Resources */ = {
+		CD8C785F03B1DE4E4863D048 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,23 +384,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment/Pods-DemoPayment-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E688EAD9372EB006E7AFC1E9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoPayment-DemoPaymentTests/Pods-DemoPayment-DemoPaymentTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -469,17 +438,22 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 534386E7EA32CFA0EB6616FB /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */;
+			baseConfigurationReference = A4D9BB182E1AE51D7DED0C28 /* Pods-DemoPayment-DemoPaymentTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = YBHSVXN996;
-				FRAMEWORK_SEARCH_PATHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/zdpk",
+					"$(inherited)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DemoPaymentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -498,14 +472,18 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77197F5177C40B7943EA9C1D /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */;
+			baseConfigurationReference = 51CE44726D51928F36E2B2CD /* Pods-DemoPayment-DemoPaymentTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = YBHSVXN996;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/zdpk",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DemoPaymentTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,7 +502,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB043947513F295192D21E1D /* Pods-DemoPayment.debug.xcconfig */;
+			baseConfigurationReference = 92EE5F5979468DE8D8AAFFE3 /* Pods-DemoPayment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -533,7 +511,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YBHSVXN996;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DemoPayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -554,7 +539,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AC0BC218DFE0D4A7EC0AA67 /* Pods-DemoPayment.release.xcconfig */;
+			baseConfigurationReference = 3D756D58E78AD033F4A2C5CD /* Pods-DemoPayment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -562,7 +547,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YBHSVXN996;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = DemoPayment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -629,7 +620,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -687,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -713,7 +704,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DemoPayment" */ = {
 			isa = XCConfigurationList;
@@ -722,7 +713,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "DemoPayment" */ = {
 			isa = XCConfigurationList;
@@ -731,7 +722,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
